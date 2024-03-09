@@ -1,0 +1,123 @@
+html {
+    background: #ffffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-family: 'Times New Roman', sans-serif;
+    display: grid;
+}
+
+.container{
+  max-width: 100%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo {
+  width: 600px; /* Ajustar el ancho al 100% del contenedor */
+  height: auto; /* Mantener la proporción de aspecto */
+  border-radius: 20px;
+}
+
+#IMAGEN {
+  width: 100%;
+  height: auto;
+}
+
+.bientext {
+  flex: 1;
+  text-align: center;
+  text-shadow: 0.8px 1.4px rgba(169,183,204,255);
+  animation: fadeIn 6s forwards;
+  margin-top: 50px;
+}
+
+.reglas{
+  flex: 1;
+  text-align: center;
+  color: rgba(5,47,108,255);
+  text-shadow: 0.8px 1.4px rgba(169,183,204,255);
+  font-size: 20px;
+  animation: fadeIn 6s forwards;
+}
+  
+.intro {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+  td{
+    font-size: 15px;
+    text-align: center;
+    color: rgba(5,47,108,255);
+    text-shadow: 0.8px 1.4px rgba(169,183,204,255);
+    animation: fadeIn 6s forwards;
+  }
+  
+  .button {
+    width: 25%;
+    height:auto;
+    transform: translate(160%, -180%);
+  }
+
+  .presion {
+    cursor: pointer;
+    background: none;
+    border: none;
+    background-color: transparent;
+    animation: fadeIn 7s forwards;
+    margin-top: 70px;
+  }
+
+  .click {
+    color: #FD8A32;
+    font-family: "Micro 5", sans-serif;
+    font-size: 40px;
+    animation: fadeIn 7s forwards;
+  }
+
+  .derechos {
+    color: #FD8A32;
+    bottom: 0;
+    padding: 5%;
+    animation: fadeIn 7s forwards;
+  }
+
+  .carousel-inner > .item >,
+  .carousel-inner > .item > a > {
+      width: 500px;
+      margin: 500px;
+      align-items: center;
+  }
+  .instrucciones {
+    font-size: 40px;
+    animation: fadeIn 7s forwards;
+  }
+ /* 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  */
